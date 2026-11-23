@@ -1,3 +1,4 @@
+
 # Social Media Backend (Instagram-like)
 
 Node.js + Express 5 + MongoDB (Mongoose) REST API with JWT auth, image posts, likes/dislikes, comments,
@@ -150,3 +151,5 @@ CLOUDINARY_FOLDER=g-app        # optional
 4. Open `https://<your-service>.onrender.com/api/health` – it must answer `API is running`; check the Render logs for
    `Image storage: CLOUDINARY connected`.
 5. In the React Native app set `PRODUCTION_API_URL = 'https://<your-service>.onrender.com/api'` and build the APK.
+=======
+
