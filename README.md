@@ -19,9 +19,9 @@ On first start the **admin account is created automatically** (password stored a
 
 | field    | value               |
 |----------|---------------------|
-| email    | `gajanan@admin.com` |
+| email    | `gajanankale@.com` |
 | mobile   | `9999999999`        |
-| password | `gajnann123`        |
+| password | `passwordnewone`        |
 
 Change these in `.env` (`ADMIN_EMAIL`, `ADMIN_MOBILE`, `ADMIN_PASSWORD`, ...). `npm run seed:admin` re-creates the admin / resets its password to the `.env` value.
 **Change the admin password and `JWT_SECRET` before going to production.**
